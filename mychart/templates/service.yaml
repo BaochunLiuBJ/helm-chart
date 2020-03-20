@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ template "helm-chart-test.fullname" . }}
+  name: {{ template "mychart.fullname" . }}
   labels:
-    app: {{ template "helm-chart-test.name" . }}
-    chart: {{ template "helm-chart-test.chart" . }}
+    app: {{ template "mychart.name" . }}
+    chart: {{ template "mychart.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
@@ -15,5 +15,5 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app: {{ template "helm-chart-test.name" . }}
+    app: {{ template "mychart.name" . }}
     release: {{ .Release.Name }}

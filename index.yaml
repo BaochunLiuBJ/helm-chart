@@ -3,11 +3,21 @@ entries:
   helm-chart-test:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-03-20T12:16:46.054658663+08:00
+    created: 2020-03-20T12:37:40.967212839+08:00
     description: A Helm chart for Kubernetes
     digest: 25ba6d89749f42540ed932d281557d2d426c5286a6e995d2b90256741cf12bbe
     name: helm-chart-test
     urls:
-    - https://baochunliubj.github.io/helm-chart/helm-chart-test-0.1.0.tgz
+    - https://mattiaperi.github.io/helm-chart/helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: 2020-03-20T12:16:46.053307191+08:00
+  mychart:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2020-03-20T12:37:40.967970583+08:00
+    description: A Helm chart for Kubernetes
+    digest: 08abeb3542e8a9ab90df776d3a646199da8be0ebfc5198ef032190938d49e30a
+    name: mychart
+    urls:
+    - https://mattiaperi.github.io/helm-chart/mychart-0.1.0.tgz
+    version: 0.1.0
+generated: 2020-03-20T12:37:40.966002876+08:00
