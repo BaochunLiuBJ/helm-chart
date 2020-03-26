@@ -3,41 +3,51 @@ entries:
   helm-chart-test:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-03-25T13:01:59.661965762Z
+    created: 2020-03-26T06:52:41.909460613Z
     description: A Helm chart for Kubernetes
     digest: 25ba6d89749f42540ed932d281557d2d426c5286a6e995d2b90256741cf12bbe
     name: helm-chart-test
     urls:
-    - helm-chart-test-0.1.0.tgz
+    - https://baochunliubj.github.io/helm-chart/helm-chart-test-0.1.0.tgz
+    version: 0.1.0
+  mpdmonitor-endpoint:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2020-03-26T06:52:41.909625797Z
+    description: A Helm chart for Kubernetes
+    digest: 34893a35a7fbe313b7da988790e5b71a454bcf2e394d291ee592aa512d75eda3
+    name: mpdmonitor-endpoint
+    urls:
+    - https://baochunliubj.github.io/helm-chart/mpdmonitor-endpoint-0.1.0.tgz
     version: 0.1.0
   mychart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-03-25T13:01:59.662156367Z
+    created: 2020-03-26T06:52:41.910338077Z
     description: A Helm chart for Kubernetes
     digest: 08abeb3542e8a9ab90df776d3a646199da8be0ebfc5198ef032190938d49e30a
     name: mychart
     urls:
-    - mychart-0.1.0.tgz
+    - https://baochunliubj.github.io/helm-chart/mychart-0.1.0.tgz
     version: 0.1.0
   supervisor:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-03-25T13:01:59.662371695Z
+    created: 2020-03-26T06:52:41.910578299Z
     description: A Helm chart of mpd-monitor supervisor for Kubernetes
-    digest: bd26668c16af91c25b8cc68f757792bef1f1c8631ea829e49d3fc5736e1551b7
+    digest: 5a7ee4cf0a9f0512dc513bab4f7909932477eca860739869332b2bf92087e9ba
     name: supervisor
     urls:
-    - supervisor-0.1.0.tgz
+    - https://baochunliubj.github.io/helm-chart/supervisor-0.1.0.tgz
     version: 0.1.0
   worker:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-03-25T13:01:59.662581289Z
+    created: 2020-03-26T06:52:41.910810878Z
     description: A Helm chart of mpd-monitor worker for Kubernetes
-    digest: e23a4c7685a1c6f76c1c1eae9532d88560fc46aa09e971fbefb913d583126fb3
+    digest: 63f0c8e024173dae6d7293458f8bd22612e69bebb073d5056295179ee8c20722
     name: worker
     urls:
-    - worker-0.1.0.tgz
+    - https://baochunliubj.github.io/helm-chart/worker-0.1.0.tgz
     version: 0.1.0
-generated: 2020-03-25T13:01:59.66166245Z
+generated: 2020-03-26T06:52:41.908286963Z
