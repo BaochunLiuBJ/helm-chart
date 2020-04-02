@@ -3,7 +3,7 @@ entries:
   helm-chart-test:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-04-02T06:19:45.092244954Z
+    created: 2020-04-02T06:59:45.103518448Z
     description: A Helm chart for Kubernetes
     digest: 25ba6d89749f42540ed932d281557d2d426c5286a6e995d2b90256741cf12bbe
     name: helm-chart-test
@@ -13,7 +13,7 @@ entries:
   mpdmonitor-endpoint:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-04-02T06:19:45.092410828Z
+    created: 2020-04-02T06:59:45.103678771Z
     description: A Helm chart for Kubernetes
     digest: ebc6779972f4e94c299c37051dcb8cfae1cda6a0291f41859c3cd7f000e6b513
     name: mpdmonitor-endpoint
@@ -23,7 +23,7 @@ entries:
   mpdmonitor-supervisor:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-04-02T06:19:45.092639594Z
+    created: 2020-04-02T06:59:45.103910535Z
     description: A Helm chart of mpd-monitor supervisor for Kubernetes
     digest: b5472d61d62fb8732ad2cd9591d866891f810ceb9afba9fae4805075c50ec3d5
     name: mpdmonitor-supervisor
@@ -33,7 +33,7 @@ entries:
   mpdmonitor-worker:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-04-02T06:19:45.092855659Z
+    created: 2020-04-02T06:59:45.104129652Z
     description: A Helm chart of mpd-monitor worker for Kubernetes
     digest: c6c9374feef1a35e1e6437ca2297d6aca015b718470145ddd977a20ad73300ba
     name: mpdmonitor-worker
@@ -43,31 +43,11 @@ entries:
   mychart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-04-02T06:19:45.093399932Z
+    created: 2020-04-02T06:59:45.104348488Z
     description: A Helm chart for Kubernetes
     digest: 08abeb3542e8a9ab90df776d3a646199da8be0ebfc5198ef032190938d49e30a
     name: mychart
     urls:
     - https://baochunliubj.github.io/helm-chart/mychart-0.1.0.tgz
     version: 0.1.0
-  supervisor:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: 2020-04-02T06:19:45.094065644Z
-    description: A Helm chart of mpd-monitor supervisor for Kubernetes
-    digest: 5a7ee4cf0a9f0512dc513bab4f7909932477eca860739869332b2bf92087e9ba
-    name: supervisor
-    urls:
-    - https://baochunliubj.github.io/helm-chart/supervisor-0.1.0.tgz
-    version: 0.1.0
-  worker:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: 2020-04-02T06:19:45.094712877Z
-    description: A Helm chart of mpd-monitor worker for Kubernetes
-    digest: 63f0c8e024173dae6d7293458f8bd22612e69bebb073d5056295179ee8c20722
-    name: worker
-    urls:
-    - https://baochunliubj.github.io/helm-chart/worker-0.1.0.tgz
-    version: 0.1.0
-generated: 2020-04-02T06:19:45.091553511Z
+generated: 2020-04-02T06:59:45.103189742Z
